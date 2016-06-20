@@ -1,0 +1,41 @@
+# Chapter 1
+#
+- number: "1"
+  title:
+    en:  What it is DATA
+    vi: What it is Viet
+  intro:
+    en: "An introduction to malaria, what is it and how it impacts us."
+    vi: "Viet introduction"
+
+- number: "2"
+  title:
+    en: Transmission
+    vi: Transmission Viet
+  intro:
+    en: "An introduction to malaria, what is it and how it impacts us."
+    vi: "Viet introduction"
+
+- number: "3"
+  title:
+    en: Prevention
+    vi: Prevention Viet
+  intro:
+    en: "An introduction to malaria, what is it and how it impacts us."
+    vi: "Viet introduction"
+
+- number: "4"
+  title:
+    en: Treatmenmt
+    vi: Treatmenmt Viet
+  intro:
+    en: "An introduction to malaria, what is it and how it impacts us."
+    vi: "Viet introduction"
+
+- number: "5"
+  title:
+    en: Community
+    vi: Community Viet
+  intro:
+    en: "An introduction to malaria, what is it and how it impacts us."
+    vi: "Viet introduction"
