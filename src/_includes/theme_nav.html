@@ -1,9 +1,0 @@
-<nav class="theme_nav" id="theme_nav">
-  <ul>
-    {% for theme in site.data.themes %}
-      {% if theme.chapter_number == include.chapter_number %} 
-      <li><a href="#{{theme.id}}" data-target="{{theme.id}}">{{theme.title[site.active_lang]}}</a></li>
-      {% endif %}
-    {% endfor%}
-  </ul>
-</nav>
