@@ -6,8 +6,8 @@
       <!-- <div class="bg_overlay"></div> -->
       <figure id="video_player" class="main_video">
         <div id="video_container" class="full--video">
-          <!-- <video
-            id="{{theme.id}}"
+          <video
+            id="{{theme.id}}_video"
             class="video-js  vjs-polyzor-skin"
             controls
             width="640" height="264"
@@ -19,9 +19,9 @@
                 "src": "https://www.youtube.com/watch?v={{theme.youtube}}"}],
                 "youtube": { "iv_load_policy": 1 }
               }'>
-          </video> -->
+          </video>
 
-          <video id="{{theme.id}}_video" class="video-js  vjs-polyzor-skin"
+          <!-- <video id="{{theme.id}}_video" class="video-js  vjs-polyzor-skin"
             controls preload="auto" width="640" height="360"
             poster="{{site.baseurl}}/assets/images/poster_default.jpg"
             data-setup='{  "fluid":"true",
@@ -34,7 +34,7 @@
             }'>
             <source src="{{site.baseurl}}/assets/videos/{{theme.video}}.mp4" type="video/mp4">
             <source src="{{site.baseurl}}/assets/videos/{{theme.video}}.webm" type="video/webm">
-         </video>
+         </video> -->
 
         </div>
         <figcaption class="video--caption">
@@ -68,7 +68,7 @@
           			<div class="modal__content">
                   <h2>{{extra.title[site.active_lang]}}</h2>
                   <div id="video_container" class="full--video extra-pop">
-                    <video id="{{theme.id}}_modal_video" class="video-js vjs-polyzor-skin"
+                    <!-- <video id="{{theme.id}}_modal_video" class="video-js vjs-polyzor-skin"
                       controls preload="auto" width="640" height="360"
                       poster="{{site.baseurl}}/assets/images/poster_default.jpg"
                       data-setup='{
@@ -76,6 +76,21 @@
                       }'>
                       <source src="{{site.baseurl}}/assets/videos/{{extra.video}}.mp4" type="video/mp4">
                       <source src="{{site.baseurl}}/assets/videos/{{extra.video}}.webm" type="video/webm">
+                    </video> -->
+
+                    <video
+                      id="{{theme.id}}_modal_video"
+                      class="video-js  vjs-polyzor-skin"
+                      controls
+                      width="640" height="264"
+                      data-setup='{ "fluid":"true",
+                        "aspectRatio":"640:360",
+                        "techOrder": ["youtube"],
+                        "sources": [{
+                          "type": "video/youtube",
+                          "src": "https://www.youtube.com/watch?v={{extra.youtube}}"}],
+                          "youtube": { "iv_load_policy": 1 }
+                        }'>
                     </video>
                   </div>
           				<!-- modal close button -->
