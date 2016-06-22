@@ -365,6 +365,7 @@ $big-play-height: 1em;
 
 .vjs-poster {
   background-size: cover;
+  filter: blur(3px) brightness(0.7);
 }
 
 //======================

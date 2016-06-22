@@ -37,7 +37,7 @@
         triggerElement: this,
         triggerHook: 0.5,
         offset: 0,
-        duration: $(this).height(),
+        duration: $(this).find('video').height(),
       })
       .setTween(swapClip)
       .addTo(ctrl);
