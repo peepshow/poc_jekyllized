@@ -12,7 +12,7 @@ en:
 
   home_chapter_title: "Explore the chapters"
   home_chapter_text: "Find out more about the fight against malaria in Vietnam."
-  home_community_title: "Community Narritives"
+  home_community_title: "Community Narratives"
   home_community_text: "Hear from four community members effected by malaria."
 
   extraheading: "Dive a bit deeper"
@@ -39,11 +39,11 @@ animation1:
   title:
     en: "Malaria Lifecycle: The Human Host"
     vi: "Malaria Lifecycle: The Human Host"
-  video: "0113_POC_PRO2_WEHI_Human_Host"
+  video: "Malaria_Lifecycle_The_Human_Host"
   youtube: gpfWjkGeGEM
 animation2:
   title:
     en: "Malaria Lifecycle: The Mosquito Host"
     vi: "Malaria Lifecycle: The Mosquito Host"
-  video: "0113_POC_PRO2_WEHI_Mosquito_Host"
+  video: "Malaria_Lifecycle_The_Mosquito_Host"
   youtube: JA5dkcp5msE

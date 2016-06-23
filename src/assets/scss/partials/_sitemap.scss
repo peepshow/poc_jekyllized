@@ -17,7 +17,7 @@ main {
 	@include transition-timing-function(cubic-bezier(.91,.01,.6,.99));
 
 	.navigation-is-open & {
-		@include transform(translateX(100%));
+		@include transform(translateX(-100%));
 	}
 
 }
@@ -25,7 +25,7 @@ main {
 .cd-nav-trigger {
 	position: fixed;
 	z-index: 3;
-	left: 3%;
+	right: 3%;
 	top: 20px;
 	height: 50px;
 	width: 50px;
@@ -138,7 +138,7 @@ main {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: $md-deep-purple-500;
+	background-color: $md-blue-grey-800;
 	visibility: hidden;
 	@include transition(visibility 0s $animation-duration);
 
@@ -154,7 +154,7 @@ main {
 		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 
-		@include transform(translateX(-50%));
+		@include transform(translateX(80%));
 		@include transition(transform $animation-duration);
 		@include transition-timing-function(cubic-bezier(.86,.01,.77,.78));
 	}
@@ -165,7 +165,7 @@ main {
 
 		.cd-navigation-wrapper {
 			@include transform(translateX(0));
-			@include transition(transform $animation-duration - 0.2s);
+			@include transition(transform $animation-duration 0.2s);
 			@include transition-timing-function(cubic-bezier(.82,.01,.77,.78));
 		}
 	}
@@ -173,10 +173,11 @@ main {
 
 
   nav ul.megamenu {
-    display: flex;
-    flex-wrap: wrap;
+    @include outer-container();
+    //display: flex;
+    //flex-wrap: wrap;
     text-align: left;
-    margin: 10vh 0 0;
+    margin-top: 4em;
   }
 
   nav ul li:hover ul.megamenu {
@@ -186,18 +187,19 @@ main {
   /* third stage (child-menus in the mega-menu) */
 
   nav ul.megamenu ul {
-    width: 20%;
-    margin: 0 2% 5% 0;
+    //width: 33%;
+    @include span-columns(4);
+    margin: 0 0 5% 0;
     color: #FFF;
     box-shadow: none;
     @include media(max-width 900px, 6) {
-      width: 30%;
+      @include span-columns(4);
     }
     @include media(max-width 700px, 6) {
-      width: 45%;
+      @include span-columns(6);
     }
     @include media(min-width 320px max-width 480px, 6) {
-      width: 100%;
+      @include span-columns(12);
       margin: 0;
     }
   }
@@ -209,6 +211,7 @@ main {
 
   nav ul.megamenu ul li {
     display: block;
+    line-height: 1.8em;
   }
 
   nav ul.megamenu ul li a {

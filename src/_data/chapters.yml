@@ -2,40 +2,40 @@
 #
 - number: "1"
   title:
-    en:  What it is DATA
-    vi: What it is Viet
+    en:  What Is It
+    vi:  Nó Là Gì?
   intro:
-    en: "An introduction to malaria, what is it and how it impacts us."
+    en: “Investigate how the highly evolved malaria parasites is spread from mosquitoes to humans and back again. It is one of the biggest killers in human history but can we beat it?”
     vi: "Viet introduction"
 
 - number: "2"
   title:
     en: Transmission
-    vi: Transmission Viet
+    vi: Lây Nhiễm
   intro:
-    en: "An introduction to malaria, what is it and how it impacts us."
+    en: “Explore the unique conditions that keep this clever disease passing between Anophelene mosquitoes and humans so effectively in such focused areas of Vietnam.  What is special about malaria in this country?”
     vi: "Viet introduction"
 
 - number: "3"
   title:
     en: Prevention
-    vi: Prevention Viet
+    vi: Phòng Chống
   intro:
-    en: "An introduction to malaria, what is it and how it impacts us."
+    en: “Learn more about how malaria is controlled in Vietnam.  The methods sound simple so why is it such a complicated disease to control?”
     vi: "Viet introduction"
 
 - number: "4"
   title:
     en: Treatmenmt
-    vi: Treatmenmt Viet
+    vi: Chữa Tri
   intro:
-    en: "An introduction to malaria, what is it and how it impacts us."
+    en: “Discover how malaria is treated in Vietnam and what challenges it presents for healthcare workers and the community.  How long can we rely on malaria drugs and why is drug resistance such a global problem?”
     vi: "Viet introduction"
 
 - number: "5"
   title:
-    en: Community
-    vi: Community Viet
+    en: Communication
+    vi: Truyền Thông
   intro:
-    en: "An introduction to malaria, what is it and how it impacts us."
+    en: “Hear what we are doing with communication to combat this complicated diseases. Is communication the key to eliminating malaria?”
     vi: "Viet introduction"

@@ -9,6 +9,8 @@
     height: 200vh;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,17 +174,22 @@
 
 
 .extras {
-  @include span-columns(12);
+  //@include span-columns(12);
 }
 .extra-pop {
   min-width: 70vw;
 }
+.buttons {
+  @include outer-container();
+}
 .extra_card {
   @include span-columns(4);
+  @include omega(3n);
+  margin-bottom: 1.6em;
   height: 170px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0px 0px 43px -3px #474747;
+  box-shadow: 0px 0px 43px #474747;
   .caption {
     position: absolute;
     top: 1.2em;

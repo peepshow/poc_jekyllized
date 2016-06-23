@@ -14,7 +14,19 @@
 
 				<nav>
           <ul class="megamenu">
-            {% for chapter in site.pages %}
+            {% for chapter in site.data.chapters %}
+
+              <ul>
+                <li><h4><a href="{{ site.baseurl }}/chapters/chapter{{ chapter.number }}.html" class="{% if page.url == '/chapters/chapter{{ chapter.number }}.html' %}active{% endif %}">{{ chapter.title.[site.active_lang] }}</a></h4></li>
+                {% for theme in site.data.themes %}
+                  {% if theme.chapter_number == chapter.number %}
+
+                  <li><a href="{{ site.baseurl }}/chapters/chapter{{ chapter.number }}.html#{{theme.id}}">{{theme.title[site.active_lang]}}</a></li>
+
+                  {% endif %}
+                {% endfor %}
+              </ul>
+
               {% if chapter.type =='chapter' %}
               <ul>
                 <h4><a href="{{ site.baseurl }}{{chapter.url}}" class="{% if page.url == '/chapters/chapter1.html' %}active{% endif %}">{{ chapter.[site.active_lang]title }}</a></h4>

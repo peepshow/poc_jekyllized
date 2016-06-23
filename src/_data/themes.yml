@@ -1,5 +1,3 @@
-
-# Chapter 1
 - id: 2_1
   chapter_number: "1"
   title:
@@ -9,7 +7,7 @@
     en: "This science behind this disease is truly amazing. The malaria lifecycle is highly specialised, having evolved over thousands of years to ensure the parasite continues to thrive into the future."
     vi: "Khoa học đằng sau căn bệnh này thật sự rất tuyệt vời. Vòng đời của bệnh sốt rét có chuyên môn hoá rất cao, tiến hoá qua hàng ngàn năm để đảm bảo ký sinh trùng tiếp tục phát triển mạnh trong tương lai"
   video: 0113_POC_PRO2_2_What_Is_It_2.1
-  youtube: S4AKiYFrEyg
+  youtube: Gu3kQojh0-A
   image: thumb_placeholder.jpg
   extras:
     - title:
@@ -23,14 +21,14 @@
       type: "professional"
       image: thumb_placeholder.jpg
     - title:
-        en: "New community clip"
-        vi: ""
+        en: “Complicated Malaria”
+        vi: "Sự Rắc Rối của Sốt Rét"
       oneliner:
-        en: "A very small stage in a vast cosmic ocean, courage of our questions intelligent"
-        vi: ""
-      video: 0113_POC_PRO2_2_What_Is_It_2.2
-      youtube: n2mqJYVllXc
-      type: "community audio"
+        en: “XXX”
+        vi:
+      video: 0113_POC_PRO2_Lem_4_2
+      youtube: -929_4n84Ik
+      type: “community”
       image: thumb_placeholder.jpg
 
 - id: 2_2
@@ -63,6 +61,17 @@
         vi:
       video: 0113_POC_PRO2_What_Is_It_2.3.B1
       youtube: D0tN9FcBia0
+    - title:
+        en: “Interrupted Education”
+        vi: "Gián Đoạn Việc Học"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_9
+      youtube: Eis4SR_ccH0
+      type: "community"
+      image: thumb_placeholder.jpg
+
 
 - id: 2_4
   chapter_number: "1"
@@ -146,6 +155,17 @@
     vi: "Sốt rét là do muỗi sinh ra, vì vậy số người mắc bệnh phụ thuộc rất nhiều vào mùa màng và thời tiết. Lắng nghe về những yếu tố địa phương dẫn đến sốt rét, và mùa màng, thời tiết đã ảnh hưởng đến tần suất sốt rét chúng ta thấy."
   video: 0113_POC_PRO2_Transmission_3.1
   youtube: 8kMKL7lAMEg
+  extras:
+    - title:
+        en: “Mosquitoes and Seasons”
+        vi: "Muỗi và Mùa Màng"
+      oneliner:
+        en: “XXX”
+        vi:
+      video: 0113_POC_PRO2_Lem_4_7
+      youtube: HYp-E2m8M7I
+      type: “community”
+      image: thumb_placeholder.jpg
 
 - id: 3_2
   chapter_number: "2"
@@ -200,7 +220,116 @@
         vi:
       video: 0113_POC_PRO2_Transmission_3.5.B1
       youtube: C7hfqYdZ1Rg
-
+    - title:
+        en: “Hung Falls Sick“
+        vi: "Hùng Ngả Bệnh"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_1
+      youtube: fLyx3nrTsqg
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Getting Bitten“
+        vi: "Bị Cắn"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_4
+      youtube: dqcEYgcS4nA
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Communities in the Forest“
+        vi: "Cuộc Sống Trong Rừng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_10
+      youtube: LGjjuxARk2Y
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Supplies in the Forest“
+        vi: "Dụng Cụ Đi Rừng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_11
+      youtube: fVvsVC-qVVg
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Health Risks“
+        vi: "Nguy Cơ Sức Khỏe"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_12
+      youtube: 0Sl0qb_hAB8
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Risk at Work”
+        vi: "Nguy Cơ Tại Công Việc "
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_1
+      youtube: kgl3SH6i7N8
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Loss of Income”
+        vi: "Hao Hụt Thu Nhập"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_4
+      youtube: dSlqr6NcWW8
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Income for Risk”
+        vi: "Thu Nhập Cho Nguy Cơ"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_8
+      youtube: 7Vy3_694lBE
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Improved Health”
+        vi: "Sức Khỏe Được Cải Thiện"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_10
+      youtube: RSVCQuySWhA
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Income and Migrants”
+        vi: "Thu Nhập và Dân Nhập Cư"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_6
+      youtube: A6zXL4LbOQ0
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Risk of the Forest”
+        vi: " Nguy Cơ Của Rừng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_9
+      youtube: LeHxnMYGyag
+      type: "community"
+      image: thumb_placeholder.jpg
 
 
 
@@ -226,6 +355,17 @@
     vi: "Trong những thập kỷ gần đây, nhiều thứ đã thay đổi trong việc quản lý và phòng chống sốt rét. Hãy nghe những gì đã thay đồi qua thời gian và tìm hiểu xem mọi thứ đã có mục tiêu rõ ràng hơn, và hiệu quả hơn như thế nào khi đã có nhiều nguồn lực hơn, và thuốc tốt cũng nhiều hơn hơn - tất cả đều được hỗ trợ miễn phí bởi chính phủ hay các tổ chức quốc tế lớn như Liên Hợp Quốc và Tổ Chức Y tế Thế Giới."
   video: 0113_POC_PRO2_Prevention_4.2
   youtube: VwnhYKwJoMw
+  extras:
+    - title:
+        en: “Community Attitudes“
+        vi: "Phòng Chống Trong Qúa Khứ"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_3
+      youtube: kRoycCFIukY
+      type: "community"
+      image: thumb_placeholder.jpg
 
 - id: 4_3
   chapter_number: "3"
@@ -246,6 +386,36 @@
         vi:
       video: 0113_POC_PRO2_Prevention_4.3.B1
       youtube: vZwQbjNzULU
+    - title:
+        en: “Bednets & Spraying“
+        vi: "Tẩm Mùng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_9
+      youtube: aWgdmO8fZ6o
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Don’t Like Bendnets“
+        vi: "Không Thích Màn"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_2
+      youtube: 2VklrrmZr1w
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Husband Doesn’t Take Bednets“
+        vi: "Chồng Không Lấy Mùng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_5
+      youtube: 5HbmVdxGnOw
+      type: "community"
+      image: thumb_placeholder.jpg
 
 - id: 4_4
   chapter_number: "3"
@@ -296,6 +466,26 @@
         vi:
       video: 0113_POC_PRO2_Prevention_4.6.B2
       youtube: -R2fvYy39r1o
+    - title:
+        en: “Sanitizing The Home”
+        vi: "Vệ Sinh Nhà Cửa"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_3
+      youtube: lQ0uzlVufWs
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Awareness and Methods”
+        vi: "Nhận Thức và Phương Thức"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_7
+      youtube: _XD1wXK5iLU
+      type: "community"
+      image: thumb_placeholder.jpg
 
 - id: 4_7
   chapter_number: "3"
@@ -351,6 +541,57 @@
         vi:
       video: 0113_POC_PRO2_Prevention_4.8.B4
       youtube: 4bGs_gWyNoE
+    - title:
+        en: “Community Visits“
+        vi: "Thăm Cộng Đồng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_8
+      youtube: eTB_xnf87vs
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Community Awareness“
+        vi: "Nhận Thức Cộng Đồng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_1
+      youtube: mEI1gGIrHgc
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Access to Bednets“
+        vi: "Tiếp Cận Mùng Màng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_4
+      youtube: BoVU-tFjKCE
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Changing Attitudes to Bednets“
+        vi: "Thay Đổi Thái Độ Về Mùng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_6
+      youtube: VwUycfik1mU
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Lem on Bednets“
+        vi: "Lem Nói Về Ngủ Mùng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_5
+      youtube: meGJvh8TlBM
+      type: "community"
+      image: thumb_placeholder.jpg
+
 
 - id: 4_9
   chapter_number: "3"
@@ -362,6 +603,8 @@
     vi: "Bây giờ chúng ta biết rằng có nhiều việc đang được tiến hành để chống lại lây nhiễm sốt rét trong cộng đồng. Tuy nhiên, đây là vài ý chính để giải quyết căn bệnh tốt và triệt để - một mục tiêu dài hạn của các nhà khoa học sốt rét."
   video: 0113_POC_PRO2_Prevention_4.9
   youtube: HnhEni4jmcg
+
+
 
 # Chapter 4
 - id: 5_1
@@ -394,6 +637,58 @@
     vi: "Có một chu kỳ phổ biến của cơn sốt, vã mồ hôi và ớn lạnh kết hợp của sốt rét, mà sau 24 giờ sau lại trở về bình thường. Chu kỳ triệu chứng khó hiểu này đã làm người bệnh chủ quan và chần chừ khám bệnh. Xem ở đây để thêm chi tiết."
   video: 0113_POC_PRO2_Treatment_5.2
   youtube: 9jrVHF3AI54
+  extras:
+    - title:
+        en: “Treating Children”
+        vi: "Chữa Trị Cho Trẻ"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_5
+      youtube: VdIfMuPQ-iM
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Children - Recurring Malaria“
+        vi: "Trẻ Con: Tái Phát Sốt Rét"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_2
+      youtube: uMqObYjVA8Q
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Nhat Falls Sick“
+        vi: "Nhật Phát Bệnh"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Liem_2_5
+      youtube: W3SFn8-2toQ
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Seeking Care“
+        vi: "Tìm Kiếm Chăm Sóc"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_7
+      youtube: D_sYusczK8g
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Cycle of Symptoms“
+        vi: "Chu Kỳ Của Triệu Chứng"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_3
+      youtube: 1a6OzSc-w4Q
+      type: "community"
+      image: thumb_placeholder.jpg
+
 
 - id: 5_3
   chapter_number: "4"
@@ -405,6 +700,27 @@
     vi: "Ở đây chúng ta xác nhận rằng điều trị sốt rét là miễn phí cho mọi người để đảm bảo rằng chúng ta kiểm soát được bệnh với sự trợ giúp của chính phủ và các tổ chức phi chính phủ khác."
   video: 0113_POC_PRO2_Treatment_5.3
   youtube: 8g-5uAAp1rQ
+  extras:
+    - title:
+        en: “Hung Gets Tested”
+        vi: "Hùng Xét Nghiệm"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_2
+      youtube: d_q3b8wRSnE
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Lem Falls Sick”
+        vi: "Lem Phát Bệnh"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_1
+      youtube: rgLbOynKC6o
+      type: "community"
+      image: thumb_placeholder.jpg
 
 - id: 5_4
   chapter_number: "4"
@@ -425,6 +741,46 @@
         vi:
       video: 0113_POC_PRO2_Treatment_5.4.B1
       youtube: PyHVRWvVUFw
+    - title:
+        en: “Getting Treated”
+        vi: "Được Chữa Trị"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_3
+      youtube: IKUI3mJPRTw
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Direct Follow Up”
+        vi: "Theo Dõi Trực Tiếp"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_6
+      youtube: rWP8voXdqtM
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “A Complicated Case”
+        vi: "Một Ca Phức Tạp"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_4
+      youtube: aVd9Wi_V9w4
+      type: "community"
+      image: thumb_placeholder.jpg
+    - title:
+        en: “Attitudes to Care”
+        vi: "Thái Độ Đối Với Chăm Sóc Y Tế"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC_PRO2_Lem_4_8
+      youtube: y6CHQcEAcuM
+      type: "community"
+      image: thumb_placeholder.jpg
 
 - id: 5_5
   chapter_number: "4"
@@ -436,6 +792,18 @@
     vi: "Những thuốc tuyến đầu để chữa trị sốt rét được phát triển mạnh ở Việt Nam, nó rất quan trọng nhưng lại ít được biết đến. Chúng ta đang đi đầu về nghiên cứu A-tê-mi-si-nin từ đầu những năm 80, được dẫn đầu bởi hai khách mời của chúng tôi là Nick White và giáo sư Trần Thịnh Tiến của Việt Nam."
   video: 0113_POC_PRO2_Treatment_5.5
   youtube: Bh5LYqc4nxo
+  extras:
+    - title:
+        en: “Taking Medication”
+        vi: "Lấy Thuốc"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2 Hung_1_7
+      youtube: Eis4SR_ccH0
+      type: "community"
+      image: thumb_placeholder.jpg
+
 
 - id: 5_6
   chapter_number: "4"
@@ -538,3 +906,13 @@
         vi:
       video: 0113_POC_PRO2_Communication_6.4.B1
       youtube: GP8hNbC2DY0
+    - title:
+        en: “Health Education“
+        vi: "Giáo Dục Sức Khỏe"
+      oneliner:
+        en: “XXX”
+        vi: ""
+      video: 0113_POC2_PRO2_Tam_3_8
+      youtube: aahqLGBGWPs
+      type: "community"
+      image: thumb_placeholder.jpg
