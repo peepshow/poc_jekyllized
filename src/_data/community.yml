@@ -3,7 +3,10 @@
 - id: story_1
   title:
     en: "Tam’s Story"
-    vi: "Câu chuyện của <br>Tâm"
+    vi: "Câu chuyện của Tâm"
+  oneliner:
+    en: "Story introduction text"
+    vi: "Câu chuyện của Tâm introduction text"
   video: POC_3_-_Binh_Phuoc_-_Tam
   youtube: PEzjHRUJ-H0
   image: "story_1.jpg"
@@ -12,7 +15,10 @@
 - id: story_2
   title:
     en: "Liem’s Story"
-    vi: "Câu chuyện của <br>Liem"
+    vi: "Câu chuyện của Liem"
+  oneliner:
+    en: "Story introduction text"
+    vi: "Câu chuyện của Tâm introduction text"
   video: POC_3_-_Binh_Phuoc_-_Liem
   youtube: haH6z3_3MaY
   image: "story_2.jpg"
@@ -21,7 +27,10 @@
 - id: story_3
   title:
     en: "Hung's Story"
-    vi: "Câu chuyện của <br>Hung"
+    vi: "Câu chuyện của Hung"
+  oneliner:
+    en: "Story introduction text"
+    vi: "Câu chuyện của Tâm introduction text"
   video: POC_3_-_Binh_Phuoc_-_Hung
   youtube: _xIMonAIGvE
   image: "story_3.jpg"
@@ -30,7 +39,10 @@
 - id: story_4
   title:
     en: "Lem's Story"
-    vi: "Câu chuyện của <br>Lem"
+    vi: "Câu chuyện của Lem"
+  oneliner:
+    en: "Story introduction text"
+    vi: "Câu chuyện của Tâm introduction text"
   video: POC_3_-_Binh_Phuoc_-_Dieu_Lem
   youtube: gEHJrDZfJ4M
   image: "story_4.jpg"

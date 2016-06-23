@@ -78,8 +78,9 @@
   padding: 0;
   text-shadow: 0 0 10px rgba(50,50,50,0.4);
   width: 100vw;
+
   p {
-    margin-top: 0;
+    margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -208,75 +209,123 @@ div[class*="layer-"] {
   background-size: cover;
   min-height: 100vh;
   position: relative;
-  padding: 0 0 20% 28%;
+  padding: 0 0 4em;
   .home_subheader {
-    position: absolute;
-    top: -30vh;
-    left: 10vw;
-    text-align: left;
-    width: 30vw;
+    // position: absolute;
+    // top: -30vh;
+    // left: 10vw;
+    // text-align: left;
+    margin: 0 auto 2em;
+    width: 100%;
+    background-color: rgba(#232323, 0.3);
+    padding: 4em 0;
   }
 }
 .comm_grid {
-  position: relative;
-  padding-top: 68%;
   background-size: cover;
-  //width: 70%;
-  .diamond {
-    display: inline-block;
-    position: absolute;
-    width: 30%;
-    height: 44.4%;
-    transform: rotate(45deg);
-    top: 0;
+  @include outer-container(86vw);
+  .comm_card {
+    @include span-columns(6);
+    @include omega(2n);
+    margin-bottom: 1.6em;
+    height: 20em;
+    position: relative;
     overflow: hidden;
-    color: #fff;
-    font-size: 0.5rem;
-    text-shadow: 0 0 5px rgba(0,0,0,0.4);
-    background: #333;
-    box-shadow: 0 0 10px rgba(50,50,50,0.7);
-    transition: all 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    &:hover {
-      box-shadow: 0 0 40px rgba(50,50,50,0.7);
-      img {
-        opacity: 1;
-      }
+    box-shadow: 0px 0px 43px #474747;
+    background-color: #222;
+    .caption {
+      position: absolute;
+      top: 1.2em;
+      left: 1.2em;
+    }
+    h2 {
+      font-size: 1.8em;
+      letter-spacing: 0.1em;
+      //width: 80%;
+      line-height: 1.3em;
+      text-shadow: 0 0 12px rgba(55,55,55,0.8);
+    }
+    p {
+      margin-top: 1em;
+      font-size: 1.2em;
+    }
+    a {
+      margin-top: 8em;
+      display: block;
     }
     img {
+      position: absolute;
+      filter: brightness(0.7);
+      min-height: 100%;
       width: 100%;
-      transform: rotate(-45deg) scale(1.4);
-      opacity: 0.7;
+      transition: all 0.2s cubic-bezier(0.68, 0.09, 0.81, 0.99);
     }
-    span {
-      display: inline-block;
-      transform: rotate(-45deg);
-      position: relative;
-      z-index: 5;
-      text-align: center;
-      width: 100%;
-      //left: 25%;
-      top: -50%;
-      left: 12%;
-      font-size: 1.6rem;
-    }
+    // &::after {
+    //   display: block;
+    //   content: '\25BA';
+    //   position: absolute;
+    //   top: 1.2em;
+    //   right: 1.2em;
+    //   border-radius: 100%;
+    //   border: 4px solid #fff;
+    //   padding: 0.5em 0.4em 0.5em 0.6em;
+    //   line-height: 1em;
+    //   font-size: 0.8em;
+    // }
+    // display: inline-block;
+    // position: absolute;
+    // width: 30%;
+    // height: 44.4%;
+    // transform: rotate(45deg);
+    // top: 0;
+    // overflow: hidden;
+    // color: #fff;
+    // font-size: 0.5rem;
+    // text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    // background: #333;
+    // box-shadow: 0 0 10px rgba(50,50,50,0.7);
+    // transition: all 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    // &:hover {
+    //   box-shadow: 0 0 40px rgba(50,50,50,0.7);
+    //   img {
+    //     opacity: 1;
+    //   }
+    // }
+    // img {
+    //   width: 100%;
+    //   transform: rotate(-45deg) scale(1.4);
+    //   opacity: 0.7;
+    // }
+    // span {
+    //   display: inline-block;
+    //   transform: rotate(-45deg);
+    //   position: relative;
+    //   z-index: 5;
+    //   text-align: center;
+    //   width: 100%;
+    //   //left: 25%;
+    //   top: -50%;
+    //   left: 12%;
+    //   font-size: 1.6rem;
+    // }
   }
 }
-#story_1 {
-  margin-top: 3%;
-  left: 34.4%;
-}
-#story_2 {
-  margin-top: 26.4%;
-  left: 11%;
-}
-#story_3 {
-  left: 57.8%;
-  margin-top: 26.5%;
-}
-#story_4 {
-  left: 34.4%;
-  margin-top: 50%;
-}
+// #story_1 {
+//   margin-top: 3%;
+//   left: 34.4%;
+// }
+// #story_2 {
+//   margin-top: 26.4%;
+//   left: 11%;
+// }
+// #story_3 {
+//   left: 57.8%;
+//   margin-top: 26.5%;
+// }
+// #story_4 {
+//   left: 34.4%;
+//   margin-top: 50%;
+// }
 @media all and (max-width: 800px) {
   #purecontainer a span {
     font-size: 1.5rem;
