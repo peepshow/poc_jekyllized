@@ -5,7 +5,10 @@
     <div class="caption">
       <h2>{{ story.title[site.active_lang] }}</h2>
       <p>{{ story.oneliner[site.active_lang] }}</p>
-      <a href="#" data-modal="#{{ story.id }}_modal" class="modal__trigger">WATCH NOW</a>
+      <div class="links">
+        <a href="#" data-modal="#{{ story.id }}_modal" class="modal__trigger">Watch Now</a>
+        <a href="#" data-modal="#{{ story.id }}_modal" class="modal__trigger">PART 2</a>
+      </div>
     </div>
   </div>
   <!-- Modal -->

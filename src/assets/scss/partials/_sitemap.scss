@@ -25,13 +25,13 @@ main {
 .cd-nav-trigger {
 	position: fixed;
 	z-index: 3;
-	right: 3%;
+	right: 2%;
 	top: 20px;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	//background-color: $md-pink-a200;
 	border-radius: 50%;
-  border: 3px solid #FFF;
+  border: 2px solid #FFF;
 	/* image replacement */
 	overflow: hidden;
 	text-indent: 100%;
@@ -43,8 +43,8 @@ main {
 		/* icon created in CSS */
 		position: absolute;
 		@include center; // mixin inside partials > _mixins.scss
-		width: 22px;
-		height: 3px;
+		width: 20px;
+		height: 2px;
 		background-color: #FFF;
 
 		&::before, &:after {
