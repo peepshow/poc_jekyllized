@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/404.html</loc>
+<loc>https://peepshow.github.io/404.html</loc>
 </url>
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/chapters/chapter1.html</loc>
+<loc>https://peepshow.github.io/chapters/chapter1.html</loc>
 </url>
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/chapters/chapter2.html</loc>
+<loc>https://peepshow.github.io/chapters/chapter2.html</loc>
 </url>
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/chapters/chapter3.html</loc>
+<loc>https://peepshow.github.io/chapters/chapter3.html</loc>
 </url>
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/chapters/chapter4.html</loc>
+<loc>https://peepshow.github.io/chapters/chapter4.html</loc>
 </url>
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/chapters/chapter5.html</loc>
+<loc>https://peepshow.github.io/chapters/chapter5.html</loc>
 </url>
 <url>
-<loc>https://peepshow.github.io/poc_jekyllized/</loc>
+<loc>https://peepshow.github.io/</loc>
 </url>
 </urlset>
